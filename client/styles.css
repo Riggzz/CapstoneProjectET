@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(193, 193, 193);
+}
+
+button{
+    background-color: beige;
+    height: 30px;
+    width: 200px;
+    position: relative;
+    top: 2px
+}
+
+h1{
+    position: fixed;
+    top: 0px;
+    font-size: 50px;
+}
+
+h2{
+    color: maroon;
+    position: fixed;
+    top: 110px
+}
+
+img{
+    position: fixed;
+    height: 300px;
+    top: 300px
+}
+
+fieldset{
+    position: fixed;
+    top: 200px
+}
+
+header{
+    background-color: white;
+    height: 110px;
+}
