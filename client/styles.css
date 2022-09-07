@@ -1,39 +1,118 @@
 body{
-    background-color: rgb(193, 193, 193);
+    background-color: rgb(24, 24, 24);
 }
 
-button{
-    background-color: beige;
+.RansomWare{
+    background-color: #242424;
+    color: white;
     height: 30px;
     width: 200px;
-    position: relative;
-    top: 2px
+    position: fixed;
+    top: 250px;
+    left: 500px;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.KeyLogger{
+    background-color: #242424;
+    color: white;
+    height: 30px;
+    width: 200px;
+    position: fixed;
+    top: 250px;
+    left: 840px;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.Mydoom{
+    background-color: #242424;
+    color: white;
+    height: 30px;
+    width: 200px;
+    position: fixed;
+    top: 250px;
+    left: 1180px;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.ILOVEYOU{
+    background-color: #242424;
+    color: white;
+    height: 30px;
+    width: 200px;
+    position: fixed;
+    top: 540px;
+    left: 660px;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.WannaCry{
+    background-color: #242424;
+    color: white;
+    height: 30px;
+    width: 200px;
+    position: fixed;
+    top: 540px;
+    left: 1010px;
+    z-index: 1;
+    border-radius: 20px;
 }
 
 h1{
     position: fixed;
+    color: #0f0063;
     top: 0px;
-    font-size: 50px;
+    left: 20px;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+
+.rectangle1{
+    height: 11vh;
+    width: 99vw;
+    background-color: white;
+    border: solid 2px #2600ff;
+    box-shadow: 0 0 20px #2600ff;
+    
+}
+
+.rectangle2{
+    height: 80vh;
+    width: 60vw;
+    background-color: white;
+    position: fixed;
+    top: 150px;
+    left: 370px;
+    border: solid 2px #2600ff;
+    box-shadow: 0 0 20px#2600ff;
+    border-radius: 20px;
 }
 
 h2{
-    color: maroon;
+    color: #0f0063;
     position: fixed;
-    top: 110px
+    left: 690px;
+    top: 140px;
+    z-index: 1;
 }
 
-img{
-    position: fixed;
-    height: 300px;
-    top: 300px
-}
-
-fieldset{
-    position: fixed;
-    top: 200px
-}
-
-header{
+button{
     background-color: white;
-    height: 110px;
+    border-color: white;
+    color: #0f0063;
+    position: fixed;
+    height: 25px;
+    width: 75px;
+    top: 81px;
+    right: 100px;
+    z-index: 1;
 }

@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(24, 24, 24);
+}
+
+button{
+    box-shadow: 0 0 12px #2600ff;
+    border-radius: 10px;
+    border-color: #2600ff;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    position: relative;
+    top: 450px;
+    left: 930px;
+}

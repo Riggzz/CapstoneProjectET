@@ -1,7 +1,11 @@
 const express = require('express')
 const path = require('path')
+require("dotenv").config()
+const cors = require("cors")
 
-const app = express()
+app.use(express.json())
+app.use(cors())
+// const app = express()
 
 //endpoints
 app.get('/', (req, res) => {
@@ -21,4 +25,14 @@ const port = process.env.PORT || 4005;
 
 app.listen(port, () => {
     console.log(`Listening on port ${port}`)
+rollbar.log("Port opening");
 });
+
+
+var Rollbar = require("rollbar");
+var rollbar = new Rollbar({
+  accessToken:ROLLBARTOKEN,
+  captureUncaught: true,
+  captureUnhandledRejections: true
+});
+rollbar.log("Hello world!");
