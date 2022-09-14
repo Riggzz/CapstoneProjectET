@@ -13,5 +13,6 @@ module.exports = {
         people.push(newVictim)
         res.status(200).send(people)
         globalId++
+        console.log(people)
     }
 }

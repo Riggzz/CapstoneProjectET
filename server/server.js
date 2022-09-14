@@ -30,6 +30,10 @@ app.get('/js', (req, res) => {
     res.sendFile(path.join(__dirname, "../client/client.js"))
 });
 
+app.get('/javascript', (req, res) => {
+    res.sendFile(path.join(__dirname, "../client/virus.js"))
+})
+
 
 
 //callbacks to database
@@ -38,13 +42,13 @@ const {
     createVictim,
 } = require('./controller')
 
-app.post('/api/people', createVictim)
+app.post('/virus/people', createVictim)
 
 const {
     getImages
 } = require('./controller2')
 
-app.get('./api/images', getImages)
+app.get('/virus/images', getImages)
 
 const port = process.env.PORT || 4005;
 
